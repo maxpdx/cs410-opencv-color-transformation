@@ -1,40 +1,24 @@
+﻿========================================================================
+    CONSOLE APPLICATION : CS410 Project 1 - OpenCV - Color transfer
 ========================================================================
-    CONSOLE APPLICATION : CS410 Project 1 - Color transfer Project Overview
-========================================================================
-
-AppWizard has created this CS410 Project 1 - Color transfer application for you.
-
-This file contains a summary of what you will find in each of the files that
-make up your CS410 Project 1 - Color transfer application.
-
-
-CS410 Project 1 - Color transfer.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-CS410 Project 1 - Color transfer.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
 
 CS410 Project 1 - Color transfer.cpp
-    This is the main application source file.
+    This is the main application source file. Main goal is to:
+1. Implement the basic color transfer technology in the lαβ color space.
+2. Test the effects of color spaces on color transfer. You need to try at 
+	least another two color spaces.
 
 /////////////////////////////////////////////////////////////////////////////
 Other standard files:
 
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named CS410 Project 1 - Color transfer.pch and a precompiled types file named StdAfx.obj.
+	#include "stdafx.h"
+	#include <opencv2/opencv.hpp>
+	#include <opencv\highgui.h>
+	#include <iostream>
+	#include <string>
 
 /////////////////////////////////////////////////////////////////////////////
 Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
+	Might Have Bugs!
 
 /////////////////////////////////////////////////////////////////////////////
