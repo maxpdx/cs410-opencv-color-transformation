@@ -183,10 +183,12 @@ Mat transformColor(Mat source, Mat target)
 	divide(targetStdA, sourceStdA, tmpA);
 	divide(targetStdB, sourceStdB, tmpB);
 
+	/*/
 	multiply(outputChanels[0], tmpL, outputChanels[0]);
 	multiply(outputChanels[1], tmpA, outputChanels[1]);
 	multiply(outputChanels[2], tmpB, outputChanels[2]);
-	
+	//*/
+
 	add(outputChanels[0], sourceMeanL, outputChanels[0]);
 	add(outputChanels[1], sourceMeanA, outputChanels[1]);
 	add(outputChanels[2], sourceMeanB, outputChanels[2]);
